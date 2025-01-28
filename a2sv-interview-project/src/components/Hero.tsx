@@ -20,7 +20,7 @@ const Hero = () => {
               <div>
                 <div className="flex gap-2">
                   <div className="flex gap-2">
-                    <Input placeholder="Enter your email" />
+                    <Input placeholder="What do you like to eat" />
                   </div>
                   <Button className="bg-[#FF7A7A] text-white font-semibold">
                     Subscribe
