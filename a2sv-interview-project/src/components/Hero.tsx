@@ -15,7 +15,7 @@ const Hero = () => {
                 Within a few clicks, find meals that are accessible near yo
               </p>
             </div>
-            <div className="w-full flex flex-col justify-center items-start gap-4 h-[150px] rounded-lg bg-white">
+            <div className="w-full flex flex-col justify-center items-start gap-4 h-[150px] rounded-lg bg-white p-4">
               <div className="flex gap-x-2 rounded-md">
                 <div className="px-3 py-1 bg-red-200 text-center text-sm">
                   Delivery
