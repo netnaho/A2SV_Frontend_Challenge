@@ -33,14 +33,14 @@ const Footer = () => {
             <ul>Blogs</ul>
           </div>
         </div>
-      </div>
-      <div>
-        <div className="flex gap-2">
-          <Input placeholder="Enter your email" />
+        <div>
+          <div className="flex gap-2">
+            <Input placeholder="Enter your email" />
+          </div>
+          <Button className="bg-[#FFBA26] text-white font-semibold">
+            Subscribe
+          </Button>
         </div>
-        <Button className="bg-[#FFBA26] text-white font-semibold">
-          Subscribe
-        </Button>
       </div>
     </div>
   );
