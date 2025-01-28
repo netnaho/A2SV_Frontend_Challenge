@@ -3,11 +3,7 @@ import { Button } from "@/components/ui/button";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 import FeaturedRestaurants from "@/components/FeaturedRestaurants";
-import {
-  Dialog,
-  DialogContent,
-  DialogTrigger,
-} from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 
 export default function Home() {
@@ -27,13 +23,15 @@ export default function Home() {
                     Add food
                   </Button>
                 </DialogTrigger>
-                <DialogContent className="py-4 px-5">
-                  <Input placeholder="Enter food name" />
-                  <Input type="number" placeholder="Enter food rating" />
-                  <Input type="file" placeholder="Enter food image" />
-                  <Input placeholder="Enter Restaurant name" />
-                  <Input type="file" placeholder="Enter Restaurant logo" />
-                  <Input placeholder="Restaurant status" />
+                <DialogContent>
+                  <div className="py-4 px-5">
+                    <Input placeholder="Enter food name" />
+                    <Input type="number" placeholder="Enter food rating" />
+                    <Input type="file" placeholder="Enter food image" />
+                    <Input placeholder="Enter Restaurant name" />
+                    <Input type="file" placeholder="Enter Restaurant logo" />
+                    <Input placeholder="Restaurant status" />
+                  </div>
                 </DialogContent>
               </Dialog>
             </div>
