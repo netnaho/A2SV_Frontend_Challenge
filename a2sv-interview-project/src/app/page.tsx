@@ -3,6 +3,12 @@ import { Button } from "@/components/ui/button";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 import FeaturedRestaurants from "@/components/FeaturedRestaurants";
+import {
+  Dialog,
+  DialogContent,
+  DialogTrigger,
+} from "@/components/ui/dialog";
+import { Input } from "@/components/ui/input";
 
 export default function Home() {
   return (
@@ -15,9 +21,21 @@ export default function Home() {
               <Image src="/logo.png" alt="logo" width={130} height={120} />
             </div>
             <div>
-              <Button className="bg-[#FFBA26] font-semibold w-[100px] h-[30px] md:w-[150px] md:h-[42px] text-center">
-                Add food
-              </Button>
+              <Dialog>
+                <DialogTrigger>
+                  <Button className="bg-[#FFBA26] font-semibold w-[100px] h-[30px] md:w-[150px] md:h-[42px] text-center">
+                    Add food
+                  </Button>
+                </DialogTrigger>
+                <DialogContent className="py-4 px-5">
+                  <Input placeholder="Enter food name" />
+                  <Input type="number" placeholder="Enter food rating" />
+                  <Input type="file" placeholder="Enter food image" />
+                  <Input placeholder="Enter Restaurant name" />
+                  <Input type="file" placeholder="Enter Restaurant logo" />
+                  <Input placeholder="Restaurant status" />
+                </DialogContent>
+              </Dialog>
             </div>
           </nav>
         </header>
