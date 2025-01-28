@@ -33,7 +33,7 @@ const Footer = () => {
             <ul>Blogs</ul>
           </div>
         </div>
-        <div>
+        <div className="flex gap-2">
           <div className="flex gap-2">
             <Input placeholder="Enter your email" />
           </div>
