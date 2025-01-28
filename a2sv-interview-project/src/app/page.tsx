@@ -9,10 +9,10 @@ import { Input } from "@/components/ui/input";
 export default function Home() {
   return (
     <>
-      <div className="w-[90%] mx-auto">
+      <div className="">
         {/* Nav */}
         <header>
-          <nav className="flex justify-between items-center py-3">
+          <nav className="flex w-[90%] mx-auto justify-between items-center py-3">
             <div>
               <Image src="/logo.png" alt="logo" width={130} height={120} />
             </div>
