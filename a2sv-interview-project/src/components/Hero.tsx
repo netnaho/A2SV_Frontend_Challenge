@@ -17,10 +17,10 @@ const Hero = () => {
             </div>
             <div className="w-full flex flex-col justify-center items-start gap-4 h-[150px] rounded-lg bg-white p-4">
               <div className="flex gap-x-2 rounded-md">
-                <div className="px-3 py-1 bg-red-200 text-center text-sm">
+                <div className="px-3 py-1 bg-red-200 rounded-md text-center text-sm">
                   Delivery
                 </div>
-                <div className="px-3 py-1 bg-green-200 text-center text-sm">
+                <div className="px-3 py-1 bg-green-200 rounded-md text-center text-sm">
                   Pickup
                 </div>
               </div>
