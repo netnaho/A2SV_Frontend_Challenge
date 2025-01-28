@@ -24,7 +24,7 @@ export default function Home() {
                   </Button>
                 </DialogTrigger>
                 <DialogContent>
-                  <div className="py-4 px-5">
+                  <div className=" flex flex-col gap-y-2 py-4 px-5">
                     <Input placeholder="Enter food name" />
                     <Input type="number" placeholder="Enter food rating" />
                     <Input type="file" placeholder="Enter food image" />
