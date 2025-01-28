@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
+import FeaturedRestaurants from "@/components/FeaturedRestaurants";
 
 export default function Home() {
   return (
@@ -25,7 +26,10 @@ export default function Home() {
           <Hero />
         </div>
         {/* Featured Restaurants */}
-        <div>Featured Restaurant</div>
+        <div>
+          <h1 className="text-center">Featured Restaurants</h1>
+          <FeaturedRestaurants />
+        </div>
       </div>
       {/* Footer */}
       <div>
