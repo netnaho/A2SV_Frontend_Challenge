@@ -30,7 +30,7 @@ const Hero = () => {
                     <Input placeholder="What do you like to eat" />
                   </div>
                   <Button className="bg-[#FF7A7A] text-white font-semibold">
-                    Subscribe
+                    Find Food
                   </Button>
                 </div>
               </div>
