@@ -1,4 +1,6 @@
 import React from "react";
+import { Input } from "./ui/input";
+import { Button } from "./ui/button";
 
 const Footer = () => {
   return (
@@ -32,7 +34,14 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div></div>
+      <div>
+        <div className="flex gap-2">
+          <Input placeholder="Enter your email" />
+        </div>
+        <Button className="bg-[#FFBA26] text-white font-semibold">
+          Subscribe
+        </Button>
+      </div>
     </div>
   );
 };
