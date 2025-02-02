@@ -43,7 +43,7 @@ const Restaurant = ({
         </div>
         <div>
           <h2 className="text-lg font-bold">{name}</h2>
-          <span>
+          <span className="flex gap-x-2 items-center">
             <Image
               src="/icons/star-icon.png"
               alt="search"
