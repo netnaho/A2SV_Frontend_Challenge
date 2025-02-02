@@ -185,7 +185,7 @@ export default function Home() {
                         height={20}
                       />
                       <Input
-                        className=" outline-none border-none outline-0 focus:outline-0 focus:outline-none focus:ring-0"
+                        className=" outline-none border-none outline-0 active:outline-0 active:outline-none focus:ring-0"
                         placeholder="What do you like to eat today?"
                       />
                     </div>
