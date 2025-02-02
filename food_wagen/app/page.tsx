@@ -145,7 +145,7 @@ export default function Home() {
             <div className="w-[86%] mx-auto h-full flex flex-col md:flex-row justify-between items-center gap-y-2 gap-x-7">
               <div className="md:w-[60%]">
                 <h1 className=" text-4xl md:text-6xl font-bold text-white">
-                  Are you starving?
+                  Are you starvingg?
                 </h1>
                 <p className="text-sm text-white mt-2">
                   Within a few clicks, find meals that are accessible near you
